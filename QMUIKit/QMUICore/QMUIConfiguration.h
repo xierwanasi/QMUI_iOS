@@ -241,6 +241,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, assign) UIEdgeInsets       tableViewInsetGroupedSectionHeaderContentInset;
 @property(nonatomic, assign) UIEdgeInsets       tableViewInsetGroupedSectionFooterContentInset;
 
+/***************************自用******************************/
+#pragma mark - UICollectionView
+@property(nonatomic, strong, nullable) UIColor  *collectionViewCellSelectColor;
+@property(nonatomic, strong, nullable) UIColor  *collectionViewCellColor;
+
 #pragma mark - UIWindowLevel
 
 @property(nonatomic, assign) CGFloat            windowLevelQMUIAlertView;
