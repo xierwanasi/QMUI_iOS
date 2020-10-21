@@ -237,6 +237,11 @@
 #define UIWindowLevelQMUIAlertView                      [QMUICMI windowLevelQMUIAlertView]
 #define UIWindowLevelQMUIConsole                        [QMUICMI windowLevelQMUIConsole]
 
+/***************************自用******************************/
+#pragma mark - UICollectionView
+#define CollectionViewCellSelectColor                   [QMUICMI collectionViewCellSelectColor]
+#define CollectionViewCellColor                         [QMUICMI collectionViewCellColor]
+
 #pragma mark - QMUILog
 #define ShouldPrintDefaultLog                           [QMUICMI shouldPrintDefaultLog]
 #define ShouldPrintInfoLog                              [QMUICMI shouldPrintInfoLog]

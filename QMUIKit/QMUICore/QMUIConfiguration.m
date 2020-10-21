@@ -263,6 +263,11 @@ static BOOL QMUI_hasAppliedInitialTemplate;
     self.windowLevelQMUIAlertView = UIWindowLevelAlert - 4.0;
     self.windowLevelQMUIConsole = 1;
     
+/***************************自用******************************/
+    #pragma mark - UICollectionView
+    self.collectionViewCellSelectColor = UIColorMake(238, 238, 238);
+    self.collectionViewCellColor = UIColorWhite;
+    
     #pragma mark - QMUILog
     self.shouldPrintDefaultLog = YES;
     self.shouldPrintInfoLog = YES;
