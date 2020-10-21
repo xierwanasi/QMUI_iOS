@@ -266,7 +266,7 @@ static BOOL QMUI_hasAppliedInitialTemplate;
 /***************************自用******************************/
     #pragma mark - UICollectionView
     self.collectionViewCellSelectColor = UIColorMake(238, 238, 238);
-    self.collectionViewCellColor = UIColorWhite;
+    self.collectionViewCellColor = self.whiteColor;
     
     #pragma mark - QMUILog
     self.shouldPrintDefaultLog = YES;
